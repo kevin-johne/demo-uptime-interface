@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g class="kj-logo" stroke="#343434">
+    <path d="M31.5 20L31.5 80" class="letter thick k-upper" stroke-width="7" transform="rotate(45 50 50)"/>
+    <path d="M31.5 79L54.4 79" class="letter k-lower" stroke-width="2" transform="rotate(45 50 50)"/>
+    <path d="M68.5 80L68.5 20" class="letter thick j-lower" stroke-width="7" transform="rotate(45 50 50)"/>
+    <path d="M68.5 21L45.6 21" class="letter j-upper" stroke-width="2" transform="rotate(45 50 50)"/>
+    <path d="M14 56L14 35" class="letter k-left-upper"/>
+    <path d="M14 56L14 65" class="letter k-left-lower"/>
+  </g>
+</svg>
