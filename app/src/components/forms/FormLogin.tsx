@@ -6,8 +6,8 @@ import * as ReactQuery from "@tanstack/react-query";
 import axios from "axios";
 import { z } from "zod";
 import React from "react";
-import { tokenSchema } from "../../hooks/token";
-import { useAuth } from "../../AuthProvider";
+import { tokenSchema } from "../../hooks/useToken";
+import { useAuth } from "../../context/AuthProvider";
 
 const loginSchema = z.object({
   email: z.string().email(),

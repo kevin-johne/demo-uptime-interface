@@ -1,6 +1,6 @@
 import { Box, Button } from "@mui/material";
 import { PersonOutlineRounded } from "@mui/icons-material";
-import { useAuth } from "../AuthProvider";
+import { useAuth } from "../context/AuthProvider";
 
 export default function Header() {
   const { setToken } = useAuth();

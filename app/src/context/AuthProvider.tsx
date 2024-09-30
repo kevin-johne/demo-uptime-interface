@@ -1,5 +1,5 @@
 import React from "react";
-import useToken from "./hooks/token";
+import useToken from "../hooks/useToken";
 import axios from "axios";
 
 // Context for the AuthProvider

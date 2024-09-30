@@ -5,7 +5,7 @@ import { FormType } from "./types";
 import Dashboard from "./components/Dashboard";
 import React from "react";
 import Page from "./components/Page";
-import { useAuth } from "./AuthProvider";
+import { useAuth } from "./context/AuthProvider";
 
 export default function App() {
   const { token } = useAuth();

@@ -5,7 +5,7 @@ import { ThemeProvider } from "@emotion/react";
 import theme from "./theme/theme.ts";
 import CssBaseline from "@mui/material/CssBaseline";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Auth } from "./AuthProvider.tsx";
+import { Auth } from "./context/AuthProvider.tsx";
 
 const queryClient = new QueryClient();
 
