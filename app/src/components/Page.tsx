@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import Header from "./Header";
+import Navigation from "./Navigation";
 
 export default function Page({ children }: { children: React.ReactNode }) {
   return (
@@ -7,14 +7,16 @@ export default function Page({ children }: { children: React.ReactNode }) {
       sx={{
         backgroundColor: "grey.100",
         minHeight: "100vh",
+        display: "grid",
+        gridTemplateColumns: "250px 1fr",
       }}
     >
-      <Header />
+      <Navigation />
       <Box
         sx={{
           p: 3,
           margin: "0 auto",
-          maxWidth: 1400,
+          width: 1,
         }}
       >
         {children}
