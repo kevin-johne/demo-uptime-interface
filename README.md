@@ -35,7 +35,16 @@ npm install
 npm run dev
 ```
 
-## Throw away
+## Tech stack
+
+- **Vite** for build tooling, uses rollup under the hood
+- **Typescript** for type checking
+- **React** for the frontend
+- **React Query** for data fetching
+- **MUI** for components
+- **Zod** for data validation
+
+## Thank you
 
 Thank you for testing my application, and I hope you enjoyed it.
 Now it is time to throw away the docker container.
