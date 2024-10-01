@@ -2,8 +2,9 @@ version: "3"
 
 services:
   app:
-    build: .
+    build: ./
+    container_name: demo-uptime-interface-app
     ports:
       - "3001:3001"
     volumes:
-      - ./app:/app/
+      - ./app:/usr/src/app

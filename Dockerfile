@@ -2,8 +2,7 @@ FROM node:18
 
 WORKDIR /usr/src/app
 
-COPY ./app .
+RUN npm install --verbose
 
-RUN npm install
-
-CMD ["npm", "run", "dev"] 
+# -d will check if exists and then does run dev or install and run dev
+CMD [ -d "node_modules" ] && npm run dev || npm ci && npm run dev
